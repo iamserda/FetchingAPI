@@ -1,0 +1,137 @@
+* {
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 16px;
+}
+
+html,
+body {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+    display: flex;
+}
+
+#app-title {
+    text-align: center;
+    padding: 1em;
+    background-color: rgb(63, 63, 253);
+    margin-top: 0;
+    color: white;
+}
+
+.title {
+    color: rgb(63, 63, 253);
+}
+
+#app.container {
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+#chuck.container,
+#json-placeholder.container {
+    margin: 1em;
+    flex-flow: column nowrap;
+    width: 100%;
+    height: 100%;
+    min-width: 350px;
+    min-height: 350px;
+    max-width: 500px;
+    max-height: 500px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.button {
+    margin-top: 1em;
+    padding: 1em 2em;
+    font-size: 1rem;
+    background-color: rgb(63, 63, 253);
+    box-shadow: -5px 5px 0px black;
+    color: white;
+    align-self: center;
+    transform: scale(0.9);
+    transition: transform 250ms;
+    font-weight: 600;
+    font-size: 1.1rem;
+}
+
+.button:hover {
+    transform: scale(1);
+}
+
+.button:active {
+    box-shadow: -10px 10px 0px black;
+    transform: scale(1.1);
+}
+
+.photo {
+    border: 4px solid rgb(63, 63, 253);
+    box-shadow: -5px 5px 0px black;
+    width: 100%;
+    max-width: 100px;
+    display: block;
+    margin: 1em auto;
+    border-radius: 50%;
+    padding: 0.5em;
+}
+
+.display {
+    width: 80%;
+    margin: 2em auto 1em;
+    border: 10px solid rgb(63, 63, 253);
+    box-shadow: -15px 15px 0px black;
+    padding: 1em;
+    height: 50vh;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(255, 255, 255);
+}
+
+.text {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+    align-self: flex-end;
+    font-size: 1.1rem;
+    font-weight: 600;
+    text-align: center;
+    margin: 2em auto;
+    width: 80%;
+    background: rgb(63, 63, 253);
+    padding: 1em;
+    box-shadow: -7px 7px 0 black;
+    text-shadow: -2px 2px 0px rgba(0, 0, 0);
+    color: white;
+}
+
+@media (max-width: 768px) {
+    #chuck.container,
+    #json-placeholder.container {
+        margin: 1em auto;
+        flex-flow: column nowrap;
+        width: 100%;
+        height: 100%;
+        min-width: 320px;
+        min-height: 400px;
+        max-width: 500px;
+        max-height: 500px;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .display {
+        width: 100%;
+    }
+    #json-placeholder.container {
+        margin-top: 100px;
+    }
+}
