@@ -18,5 +18,5 @@ https://codepen.io/iamserda/pen/RwoZPZJ
 ### GitHub Pages:
 https://iamserda.github.io/FetchingAPI/
 
-### Scrimba (code and preview)
+### Scrimba (live code and preview and somewhat of a explanation)
 https://scrimba.com/scrim/ckGZ2DhM
