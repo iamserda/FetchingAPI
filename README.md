@@ -10,3 +10,13 @@ Displays them in an appealing yet simple UI.
 
 ### JSONPlaceholder API:
 @: https://jsonplaceholder.typicode.com/guide/
+
+
+### Codepen.io:
+
+
+### GitHub Pages:
+https://iamserda.github.io/FetchingAPI/
+
+### Scrimba (code and preview)
+https://scrimba.com/scrim/ckGZ2DhM
