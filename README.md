@@ -1,5 +1,5 @@
 # FetchingAPI
-An application that generates resources(text,assets) from 2 API on the web: Chuck Norris and JSONPlaceholder.
+An application that generates resources(text, assets) from 2 API on the web: Chuck Norris and JSONPlaceholder.
 Displays them in an appealing yet simple UI.
 
 
@@ -13,7 +13,7 @@ Displays them in an appealing yet simple UI.
 
 
 ### Codepen.io:
-
+https://codepen.io/iamserda/pen/RwoZPZJ
 
 ### GitHub Pages:
 https://iamserda.github.io/FetchingAPI/
